@@ -72,27 +72,29 @@
 ## 프로젝트 구조
 
 ```bash
-traffic-data-verification/
-├── api
-│   ├── __init__.py
-│   ├── router.py             # FastAPI 라우팅
-│   └── ...                  # API 관련 스크립트
+projects/
+├── api #  FastAPI
+│   ├── data
+│       └── preprocessing.py # 데이터 전처리
+│   ├── models
+│       ├── 0108cnn3model.pth # CNN-LSTM Model 학습 체크포인트
+│       └── model.py # CNN-LSTM Model
+│   ├── sql_app # 데이터베이스 연동
+│       ├── crud.py 
+│       ├── database.py 
+│       ├── models.py 
+│       └── schemas.py 
 ├── models
-│   ├── __init__.py
-│   ├── cnn_lstm.py          # CNN-LSTM 모델 정의
-│   ├── lstm.py              # LSTM 모델 정의
-│   └── dlinear.py           # LSTF DLinear 모델 정의 (실험용)
-├── notebooks
-│   ├── EDA.ipynb            # 탐색적 데이터 분석
-│   ├── model_dev.ipynb      # 모델 개발 및 비교 실험
+├── notebooks         
+│   ├── CNN_LSTM.ipynb
+│   ├── LSTM.ipynb
+│   ├── LTSF_Linear.ipynb       
 │   └── ...
-├── streamlit_app
-│   ├── app.py               # Streamlit 대시보드 메인
-│   └── ...
-├── data
-│   └── raw/                 # 수집된 원본 데이터
-│   └── processed/           # 전처리된 데이터
-├── requirements.txt         # 의존성 패키지 목록
+├── streamlit_app # streamlit 대시보드 구현
+│   ├── pages
+│       ├── 1_Historical_Analysis.py # 과거 데이터 분석 기능 제공
+│       └── 2_Prediction_Dashboard.py # 실시간 예측 결과를 시각적으로 표출              
+│   └── Location_Dashboard.py # 교차로 위치 기반 모니터링
 └── main.py                  # 프로젝트 메인 실행 스크립트
 ```
 
