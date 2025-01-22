@@ -171,6 +171,6 @@ projects/
    - **Location Dashboard**: 지도 기반 교차로 위치
    - **Historical Analysis**: 과거 데이터 추이 분석 및 통계 그래프  
    - **Prediction Dashboard**: 예측 vs 실제 교통량 비교 시각화  
-   - **오차율**: 20% 이상 오차율 발생 시 보정 필요요 안내
+   - **오차율**: 20% 이상 오차율 발생 시 보정 필요 안내
 
 ---
