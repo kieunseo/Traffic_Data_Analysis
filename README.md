@@ -3,6 +3,37 @@
 이 프로젝트는 4지 교차로 12방향으로 수집된 교통량 데이터를 기반으로 **CNN-LSTM 모델**을 활용하여 미래 교통량을 예측하고, 예측 결과를 통해 **데이터 신뢰도를 검증**하는 시스템을 구축하는 데 목적이 있습니다.  
 **오차율이 20%** 이상 발생하는 구간을 자동으로 식별하고, 해당 구간에 대해 보정 필요성을 안내하여 **계수 인력 투입**을 최소화하고 업무 효율성을 높일 수 있습니다.
 
+## Historical Analysis
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d4a86f70-88a0-40f4-aeb4-11b444f9a708" 
+       alt="Historical Analysis" width="80%" />
+</div>
+<p align="center">
+  과거 교통량 데이터 추이를 시각화한 화면입니다.
+</p>
+
+<br/>
+
+## Prediction Dashboard
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/efc48bbc-e049-4b58-9c7c-609df0c30576" 
+       alt="Prediction Dashboard" width="80%" />
+</div>
+<p align="center">
+  CNN-LSTM 모델의 교통량 예측값과 실제값 비교를 보여줍니다.
+</p>
+
+<br/>
+
+## Location Dashboard
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1f256e96-ead5-4f38-8085-da63e54e3310" 
+       alt="Location Dashboard" width="80%" />
+</div>
+<p align="center">
+  지도 기반으로 교차로 위치 및 신뢰도를 한눈에 확인할 수 있습니다.
+</p>
+
 ---
 
 ## 목차
