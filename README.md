@@ -27,13 +27,12 @@
 
 ## Location Dashboard
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/1f256e96-ead5-4f38-8085-da63e54e3310" 
+  <img src="https://github.com/user-attachments/assets/1f256e96-ead5-4f38-8085-da63e54e3310](https://github.com/user-attachments/assets/a4e9b83f-5fc0-47c4-a683-faaf0056aaa6" 
        alt="Location Dashboard" width="800" />
 </div>
 <p align="center">
   지도 기반으로 교차로 위치 및 신뢰도를 한눈에 확인할 수 있습니다.
 </p>
-
 ---
 
 ## 목차
