@@ -6,7 +6,7 @@
 ## Historical Analysis
 <div align="center">
   <img src="https://github.com/user-attachments/assets/d4a86f70-88a0-40f4-aeb4-11b444f9a708" 
-       alt="Historical Analysis" width="80%" />
+       alt="Historical Analysis" width="800" />
 </div>
 <p align="center">
   과거 교통량 데이터 추이를 시각화한 화면입니다.
@@ -17,7 +17,7 @@
 ## Prediction Dashboard
 <div align="center">
   <img src="https://github.com/user-attachments/assets/efc48bbc-e049-4b58-9c7c-609df0c30576" 
-       alt="Prediction Dashboard" width="80%" />
+       alt="Prediction Dashboard" width="800" />
 </div>
 <p align="center">
   CNN-LSTM 모델의 교통량 예측값과 실제값 비교를 보여줍니다.
@@ -28,7 +28,7 @@
 ## Location Dashboard
 <div align="center">
   <img src="https://github.com/user-attachments/assets/1f256e96-ead5-4f38-8085-da63e54e3310" 
-       alt="Location Dashboard" width="80%" />
+       alt="Location Dashboard" width="800" />
 </div>
 <p align="center">
   지도 기반으로 교차로 위치 및 신뢰도를 한눈에 확인할 수 있습니다.
