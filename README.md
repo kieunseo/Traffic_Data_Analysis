@@ -31,7 +31,7 @@
        alt="Location Dashboard" width="800" />
 </div>
 <p align="center">
-  지도 기반으로 교차로 위치 및 신뢰도를 한눈에 확인할 수 있습니다.
+  지도 기반으로 교차로 위치를 한눈에 확인할 수 있습니다.
 </p>
 
 ---
